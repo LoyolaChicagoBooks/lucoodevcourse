@@ -1,0 +1,9 @@
+# The get-examples.py uses this file to pull down source code examples for our book from
+# various sources. These will be cached in the examples subdirectory.
+# The script is re-entrant and can be used to pull down updates
+#
+# HPC-style examples (George and Konstantin)
+#
+
+# Actual CDER/COMP 313 Examples
+#hg,primenumbers-android-java,https://bitbucket.org/loyolachicagocs_comp313/primenumbers-android-java
