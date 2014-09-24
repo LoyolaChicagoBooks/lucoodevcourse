@@ -251,6 +251,9 @@ editing and code completion.
 Right after opening the project, you may be asked to confirm the location of
 the Android manifest file.
 
+*If you ever get a popup saying that this is an sbt-based project and
+offering to import it, choose ignore.*
+
 Running the tests and the application
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
