@@ -7,5 +7,3 @@ others are specific to C#, Java, or Scala. These topics, except
 perhaps for the last two, are supposed to be covered by the
 CS 1/2 prerequisite chain for this course.
 
-Please stay tuned!
-

@@ -19,7 +19,8 @@ Table of Contents
 
    intro
    basicoop
-   devprocess 
+   devprocess
+   scalaandroiddev
    summary
 
 
