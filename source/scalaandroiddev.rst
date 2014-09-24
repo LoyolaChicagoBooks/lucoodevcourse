@@ -13,6 +13,9 @@ Required Development Tools
   system or from
   `Oracle <http://www.oracle.com/technetwork/java/javase/downloads>`_; 
   to verify, visit `this site <http://www.java.com/en/download/installed.jsp>`_ and, if necessary, download Java from the same place. (On a Mac, be sure to do this in Safari.)
+
+  .. warning:: On Windows, it is usually best to install the JDK in a location that does not contain spaces.
+
 * `Android SDK <http://developer.android.com/sdk>`_
 * `Simple Build Tool (sbt) <http://www.scala-sbt.org>`_
 * `android-sdk-plugin <https://github.com/pfn/android-sdk-plugin>`_
