@@ -12,14 +12,20 @@ Required Development Tools
 * Java Development Kit (JDK) 6 or 7 through your package management 
   system or from
   `Oracle <http://www.oracle.com/technetwork/java/javase/downloads>`_; 
-  to verify, visit `this site <http://www.java.com/en/download/installed.jsp>`_ and, if necessary, download Java from the same place. (On a Mac, be sure to do this in Safari.)
+  to verify, visit `this site
+  <http://www.java.com/en/download/installed.jsp>`_ 
+  and, if necessary, download Java from the same place. 
+  (On a Mac, be sure to do this in Safari.)
 
   .. warning:: On Windows, it is usually best to install the JDK in a location that does not contain spaces.
 
 * `Android SDK <http://developer.android.com/sdk>`_
 * `Simple Build Tool (sbt) <http://www.scala-sbt.org>`_
 * `android-sdk-plugin <https://github.com/pfn/android-sdk-plugin>`_
-  for sbt (detailed instructions are half way down past the change log) 
+  
+  - *this is included in each of the code examples, so no explicit installation is required*
+  -  detailed *usage instructions* are `half way down past the change log <https://github.com/pfn/android-sdk-plugin>`_
+
 * `Mercurial (hg) <http://mercurial.selenic.com>`_ distributed version control system (DVCS)
 
 Recommended Tools
@@ -28,15 +34,23 @@ Recommended Tools
 - `JetBrains IntelliJ IDEA CE <http://www.jetbrains.com/idea>`_ (the latest stable version is currently 13.1)
 - IDEA Scala plugin installed through the IntelliJ IDEA plugin manager
 
-  - *installation:* ``IntelliJ IDEA > Preferences > Plugins > Browse repositories > find and right-click Scala > download and install > close repository browser > OK to restart IDEA``
-  - *documentation:* `Scala development in IDEA <http://confluence.jetbrains.com/display/IntelliJIDEA/Scala+Development>`_
+  - *installation:* ``IntelliJ IDEA > Preferences > Plugins > Browse
+    repositories``, then find and right-click ``Scala``, choose
+    ``download and install``, close repository browser, and hit ``OK`` to restart IDEA
+  - *documentation:* `Scala development in IDEA <http://confluence.jetbrains.com/display/IntelliJIDEA/Scala>`_
 
+- IDEA SBT plugin installed through the IntelliJ IDEA plugin manager
+  
+  - *installation:* ``IntelliJ IDEA > Preferences > Plugins > Browse
+    repositories``, then find and right-click ``SBT``, choose
+    ``download and install``, close repository browser, and hit ``OK`` to restart IDEA
+  - *documentation:* `idea-sbt-plugin <https://github.com/orfjackal/idea-sbt-plugin/wiki>`_
 
 
 Preparation
 ^^^^^^^^^^^
 
-- Download a standalone Android SDK.
+- Download a *standalone* Android SDK.
 
   #. visit http://developer.android.com/sdk/index.html
   #. expand "sdk for existing ide"
@@ -97,10 +111,11 @@ Preparation
 Developing on the Command Line
 ------------------------------
 
-We recommend putting ``$ANDROID_HOME/tools`` and
-``$ANDROID_HOME/platform-tools`` in the ``$PATH``. These
-instructions assume that you have done this; if not, you can still invoke
-the ``adb`` and ``emulator`` commands by specifying their full paths.
+We recommend setting ``$ANDROID_HOME`` (see below) and putting
+``$ANDROID_HOME/tools`` and ``$ANDROID_HOME/platform-tools`` in the
+``$PATH``. These instructions assume that you have done this; if not,
+you can still invoke the ``adb`` and ``emulator`` commands by
+specifying their full paths.
 
 
 Specifying the location of the Android SDK
@@ -109,7 +124,7 @@ Specifying the location of the Android SDK
 You can either
 
 - set ``$ANDROID_HOME`` to the directory where you installed your 
-  Android SDK
+  Android SDK *(recommended)*
 
 - create a file ``local.properties`` in your project root 
   (or copy an existing one) with a single line
@@ -203,6 +218,11 @@ The app should now start in the emulator and you should be able to
 interact with it. *(Cleaning before running ensures that the app gets
 installed properly on the emulator.)*
 
+.. warning:: If you get this error ``Unsupported class version number
+	     [52.0] (maximum 51.0, Java 1.7)))`` (usually near the top
+	     of a long stack trace), make sure you are *not* using
+	     Java 8.
+
 Running the tests
 ^^^^^^^^^^^^^^^^^
 
@@ -213,11 +233,12 @@ out-of-container functional tests.
 
     $ sbt test
     
-*In-container Android instrumentation tests are included in 
-some of the examples
-(sharing a testcase superclass with the Robolectric tests) 
-and work in principle, but not with the current build file for 
-reasons we do not yet understand.* 
+.. warning:: In-container Android instrumentation tests are included
+	     in some of the examples (sharing a testcase superclass
+	     with the Robolectric tests) and work in principle, but
+	     not with the current build file for reasons we do not yet
+	     understand. We will rely on the Robolectric-based tests
+	     instead.
 
 Developing with IntelliJ IDEA
 -----------------------------
@@ -234,20 +255,20 @@ It is convenient to configure the required SDKs at the global (IDE) level before
 Generating the configuration files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This step requires that you have the `sbt-idea` plugin installed per the
+This step requires that you have the ``sbt-idea`` plugin installed per the
 instructions for pfn's plugin.
 
 .. code-block:: bash
 
     $ sbt gen-idea
     
-You will have to repeat this step after every change to the `build.sbt` or `AndroidManifest.xml` files 
+You will have to repeat this step after every change to the ``build.sbt`` or ``AndroidManifest.xml`` files 
 (see also under "adding dependencies" below.
 
 Opening the project in IDEA
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Open *(not import)* the project through the initial dialog or `File > Open`.
+Open *(not import)* the project through the initial dialog or ``File > Open``.
 You should now be able to edit the project with proper syntax-directed
 editing and code completion.
 
@@ -260,11 +281,26 @@ offering to import it, choose ignore.*
 Running the tests and the application
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Some aspects of generated IDEA Android/Scala project do not work out of the box.
-We have found it easier to open a terminal within IDEA using 
-`View > Tool Windows > Terminal` and running `sbt test` or `sbt android:run`
-as desired. In the latter case, the app should start in the emulator and 
-you should be able to interact with it.
+Some aspects of generated IDEA Android/Scala project do not work out
+of the box.  We have found it easier to open a terminal within IDEA
+using ``View > Tool Windows > Terminal`` and running ``sbt test`` or
+``sbt android:run`` as desired. In the latter case, the app should
+start in the emulator and you should be able to interact with it.
+
+For a faster edit-build-run cycle, though, you will want to perform
+the IntelliJ IDEA integration described in the *Advanced Usage*
+section of `pfn's android-sdk-plugin documentation
+<https://github.com/pfn/android-sdk-plugin/blob/master/README.md>`_. In
+our experience, this requires the following adjustments *on a
+per-project basis*:
+
+- in the IDEA project structure, fix the location of
+  ``AndroidManifest.xml`` by inserting ``src/main`` in the right place
+  just before the filename
+- edit the default runtime configuration for Android Application to 
+  invoke ``sbt android:package`` instead of ``Make``
+- edit the default runtime configuration for ScalaTest to 
+  invoke ``sbt test:products`` instead of ``Make``
 
 Adding build dependencies
 -------------------------
@@ -308,16 +344,19 @@ For Windows and Mac users
 
 - `SourceTree <http://www.sourcetreeapp.com>`_ is a GUI client for Mercurial and Git
 
-Also, these are useful Android Studio/Intellij IDEA plugins. (Installation procedure is the same as for the Scala plugin.)
-
-- Code Outline 2
-- Key Promoter (helps you learn keyboard shortcuts)
-- Markdown
-
 For all users
 ^^^^^^^^^^^^^
 
 - `Genymotion <http://www.genymotion.com>`_ emulator and IDEA plugin
+- These are useful additional Android Studio/Intellij IDEA
+  plugins. (Installation procedure is the same as for the Scala
+  plugin.)
+
+  - Code Outline 2
+  - Key Promoter (helps you learn keyboard shortcuts)
+  - Markdown
+
+
 
 Tips
 ----
