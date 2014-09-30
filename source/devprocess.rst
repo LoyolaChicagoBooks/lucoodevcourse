@@ -1,9 +1,10 @@
 Overview of a Lightweight Development Process
 ===============================================
 
-A successful development process usually comprises these minimal elements:
+A successful development process usually comprises these minimal
+elements: 
 
-   - automated regression testing
-   - refactoring
-   - continuous integration
+- automated regression testing
+- refactoring
+- continuous integration
 

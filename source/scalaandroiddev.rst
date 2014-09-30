@@ -240,6 +240,44 @@ out-of-container functional tests.
 	     understand. We will rely on the Robolectric-based tests
 	     instead.
 
+Starting from scratch
+^^^^^^^^^^^^^^^^^^^^^
+
+I have not been able to get pfn's gen-android task to work even though
+I tried with a global installation of the plugin.
+
+In addition to the usual `sbt directory structure
+<http://www.scala-sbt.org/0.13/tutorial/Directories.html>`_, the key
+ingredients are
+
+- ``build.sbt`` like in `our examples <https://bitbucket.org/lucoodevcourse>`_
+
+  - set project name and version as desired
+  - review the library dependencies, e.g., choose between Mockito and
+    ScalaMock
+  - review the Proguard options
+
+- ``project/plugins.sbt`` containing
+
+  .. code-block:: scala
+
+   addSbtPlugin("com.hanhuy.sbt" % "android-sdk-plugin" % "1.3.5")
+
+   addSbtPlugin("com.hanhuy.sbt" % "sbt-idea" % "1.7.0-SNAPSHOT")
+
+   resolvers += Resolver.sbtPluginRepo("snapshots")
+
+  *(The blank lines are required.)*
+
+- ``project/build.scala`` containing
+
+  .. code-block:: scala
+
+   object Build extends android.AutoBuild
+
+For details, please refer to the `android-sdk-plugin documentation
+<https://github.com/pfn/android-sdk-plugin>`_.
+
 Developing with IntelliJ IDEA
 -----------------------------
 
@@ -248,7 +286,11 @@ Configuring IntelliJ IDEA
 
 It is convenient to configure the required SDKs at the global (IDE) level before working on new or existing projects.
 
-- configure the Java SDK at the global (IDE) level using `these instructions <http://www.jetbrains.com/idea/webhelp/configuring-global-project-and-module-sdks.html>`_ (you can go through the initial dialog or use ``Command ;`` on the Mac to open the project structure dialog directly)
+- configure the Java SDK at the global (IDE) level using `these
+  instructions
+  <http://www.jetbrains.com/idea/webhelp/configuring-global-project-and-module-sdks.html>`_
+  (you can go through the initial dialog or use ``Command ;`` on the
+  Mac to open the project structure dialog directly)
 
 - repeat these steps for the Android SDK
 
@@ -294,9 +336,6 @@ section of `pfn's android-sdk-plugin documentation
 our experience, this requires the following adjustments *on a
 per-project basis*:
 
-- in the IDEA project structure, fix the location of
-  ``AndroidManifest.xml`` by inserting ``src/main`` in the right place
-  just before the filename
 - edit the default runtime configuration for Android Application to 
   invoke ``sbt android:package`` instead of ``Make``
 - edit the default runtime configuration for ScalaTest to 
