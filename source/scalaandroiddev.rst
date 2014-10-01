@@ -414,7 +414,7 @@ For all users
   - `sbt-updates <https://github.com/rtimush/sbt-updates>`_: checks
     central repos for dependency updates
   - `cpd4sbt <https://github.com/sbt/cpd4sbt>`_: copy/paste detection
-    for Scala *(be sure to set ``cpdSkipDuplicateFiles := true`` in 
+    for Scala *(be sure to set* ``cpdSkipDuplicateFiles := true`` *in 
     Android projects to avoid a false positive for each source file)*
   - `scalastyle <https://github.com/scalastyle/scalastyle-sbt-plugin>`_: static code checker for Scala
   - `sbt-stats <https://github .com/orrsella/sbt -stats>`_: simple, extensible source code statistics/metrics
