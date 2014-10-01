@@ -329,12 +329,17 @@ using ``View > Tool Windows > Terminal`` and running ``sbt test`` or
 ``sbt android:run`` as desired. In the latter case, the app should
 start in the emulator and you should be able to interact with it.
 
+Integrating IDEA and sbt
+^^^^^^^^^^^^^^^^^^^^^^^^
+
 For a faster edit-build-run cycle, though, you will want to perform
 the IntelliJ IDEA integration described in the *Advanced Usage*
 section of `pfn's android-sdk-plugin documentation
-<https://github.com/pfn/android-sdk-plugin/blob/master/README.md>`_. In
-our experience, this requires the following adjustments *on a
-per-project basis*:
+<https://github.com/pfn/android-sdk-plugin/blob/master/README.md>`_. This
+requires IDEA with both the Scala *and* SBT plugins mentioned above.
+
+In our experience, this integration requires the following adjustments
+*on a per-project basis*:
 
 - edit the default runtime configuration for Android Application to 
   invoke ``sbt android:package`` instead of ``Make``
@@ -395,6 +400,24 @@ For all users
   - Key Promoter (helps you learn keyboard shortcuts)
   - Markdown
 
+- These are useful additional sbt plugins. `You can install them per
+  project or
+  globally. <http://www.scala-sbt.org/0.13.5/docs/Getting-Started/Using-Plugins.html>`_ 
+
+  - `sbt-scoverage <https://github.com/scoverage/sbt-scoverage>`_:
+    uses Scoverage to produce a test code coverage report
+  - `ls-sbt <https://github.com/softprops/ls>`_:  browse available
+    libraries on GitHub using ls.implicit.ly
+  - `sbt-dependency-graph
+    <https://github.com/jrudolph/sbt-dependency-graph>`_: creates a
+    visual representation of library dependency tree
+  - `sbt-updates <https://github.com/rtimush/sbt-updates>`_: checks
+    central repos for dependency updates
+  - `cpd4sbt <https://github.com/sbt/cpd4sbt>`_: copy/paste detection for Scala
+  - `scalastyle <https://github.com/scalastyle/scalastyle-sbt-plugin>`_: static code checker for SCala
+  - `sbt-stats <https://github .com/orrsella/sbt -stats>`_: simple, extensible source code statistics/metrics
+  - `sbt-scalariform <https://github.com/sbt/sbt-scalariform>`_:
+    automatic source code formatting using Scalariform): 
 
 
 Tips
