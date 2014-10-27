@@ -61,7 +61,9 @@ Preparation
 
   #. run the Android SDK manager, ``$ANDROID_HOME/tools/android``
   #. check Android SDK platform tools and build tools version 20, 19.1.0, 19.0.1
-  #. check Android 4.3 (API 18) (the API 19 emulator has a bug related to screen rotation)
+  #. check Android 4.3 (API 18) (`the API 19 emulator has a bug
+     related to screen rotation
+     <http://stackoverflow.com/questions/17964833/android-emulator-not-rotating-to-landscape>`_)
   #. check Android support repository and Google repository (see also `here <http://stackoverflow.com/questions/20761872/gradle-does-not-resolve-support-library>`_)
   #. check HAXM (hardware acceleration for the emulator)
   #. on Windows, check USB driver
@@ -111,11 +113,14 @@ Preparation
 Developing on the Command Line
 ------------------------------
 
-We recommend setting ``$ANDROID_HOME`` (see below) and putting
-``$ANDROID_HOME/tools`` and ``$ANDROID_HOME/platform-tools`` in the
-``$PATH``. These instructions assume that you have done this; if not,
-you can still invoke the ``adb`` and ``emulator`` commands by
-specifying their full paths.
+We recommend globally and persistently setting ``$ANDROID_HOME``
+(`Windows instructions
+<http://www.computerhope.com/issues/ch000549.htm>`_, `Mac OS X
+instructions <http://stackoverflow.com/questions/25154555>`_) as
+discussed below and putting ``$ANDROID_HOME/tools`` and
+``$ANDROID_HOME/platform-tools`` in the ``$PATH``. These instructions
+assume that you have done this; if not, you can still invoke the
+``adb`` and ``emulator`` commands by specifying their full paths.
 
 
 Specifying the location of the Android SDK
