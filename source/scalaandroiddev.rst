@@ -422,7 +422,7 @@ For all users
     for Scala *(be sure to set* ``cpdSkipDuplicateFiles := true`` *in 
     Android projects to avoid a false positive for each source file)*
   - `scalastyle <https://github.com/scalastyle/scalastyle-sbt-plugin>`_: static code checker for Scala
-  - `sbt-stats <https://github .com/orrsella/sbt -stats>`_: simple, extensible source code statistics/metrics
+  - `sbt-stats <https://github.com/orrsella/sbt-stats>`_: simple, extensible source code statistics/metrics
   - `sbt-scalariform <https://github.com/sbt/sbt-scalariform>`_:
     automatic source code formatting using Scalariform
 
