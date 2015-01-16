@@ -69,7 +69,7 @@ Preparation
   #. on Windows, check USB driver
   #. install selected packages
 
-  .. image:: /images/sdkinstall.png
+  .. image:: images/sdkinstall.png
      :alt: Recommended AVD configuration
      :scale: 50%
 
@@ -91,7 +91,7 @@ Preparation
     CPU, a skin with hardware controls, and the option *hardware
     keyboard present* checked
 
-  .. image:: /images/avdconfig.png
+  .. image:: images/avdconfig.png
      :alt: Recommended AVD configuration
      :scale: 50%
 
