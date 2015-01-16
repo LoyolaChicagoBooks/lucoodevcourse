@@ -21,9 +21,9 @@ Examples
 ^^^^^^^^
 
 - `misc/IdentityAndEquality.java
-  <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/IdentityAndEquality.java>`_ 
+  <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/IdentityAndEquality.java>`_ 
 - `misc/Comparing.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/Comparing.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/Comparing.scala>`_
 
 References
 ^^^^^^^^^^
@@ -43,9 +43,9 @@ Equality vs. identity
 Examples
 ^^^^^^^^
 
-- `misc/IdentityAndEquality.java <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/IdentityAndEquality.java>`_
+- `misc/IdentityAndEquality.java <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/IdentityAndEquality.java>`_
 - `misc/Comparing.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/Comparing.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/Comparing.scala>`_
 
 References
 ^^^^^^^^^^
@@ -74,9 +74,9 @@ Examples
 ^^^^^^^^
 
 - `misc/Comparing.java
-  <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/Comparing.java>`_  
+  <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/Comparing.java>`_  
 - `misc/Comparing.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/Comparing.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/Comparing.scala>`_
 
 References
 ^^^^^^^^^^
@@ -123,9 +123,9 @@ From strong to weak:
 Examples
 ^^^^^^^^
 
-- `misc/Animals.java <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/Animals.java>`_
+- `misc/Animals.java <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/Animals.java>`_
 - `misc/Animals.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/Animals.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/Animals.scala>`_
 - Figure :ref:`fig_VehiclesUML`
 
 .. _fig_VehiclesUML:
@@ -162,9 +162,9 @@ Examples
 ^^^^^^^^
 
 - `misc/Animals.java
-  <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/Animals.java>`_ 
+  <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/Animals.java>`_ 
 - `misc/Animals.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/Animals.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/Animals.scala>`_
 
 References
 ^^^^^^^^^^
@@ -204,9 +204,9 @@ Examples
 ^^^^^^^^
 
 - `misc/Animals.java
-  <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/Animals.java>`_ 
+  <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/Animals.java>`_ 
 - `misc/Animals.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/Animals.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/Animals.scala>`_
  
 References
 ^^^^^^^^^^
@@ -244,14 +244,14 @@ Subtype polymorphism: static vs. dynamic type
 Examples
 ^^^^^^^^
 
-- `misc/MethodBinding.java <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/MethodBinding.java>`_
-- `misc/InterfaceCast.java <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/InterfaceCast.java>`_
-- `misc/Super.java <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/Super.java>`_
-- `misc/Super2.java <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/Super2.java>`_
+- `misc/MethodBinding.java <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/MethodBinding.java>`_
+- `misc/InterfaceCast.java <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/InterfaceCast.java>`_
+- `misc/Super.java <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/Super.java>`_
+- `misc/Super2.java <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/Super2.java>`_
 - `misc/MethodBinding.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/MethodBinding.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/MethodBinding.scala>`_
 - `misc/InterfaceCast.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/InterfaceCast.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/InterfaceCast.scala>`_
 
 References
 ^^^^^^^^^^
@@ -281,10 +281,10 @@ Also related to the Liskov substitution principle.
 Examples
 ^^^^^^^^
 
-- `misc/IdentityAndEquality.java <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/IdentityAndEquality.java>`_
-- `misc/Comparing.java <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/Comparing.java>`_
+- `misc/IdentityAndEquality.java <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/IdentityAndEquality.java>`_
+- `misc/Comparing.java <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/Comparing.java>`_
 - `misc/Comparing.scala 
-  <https://bitbucket.org/lucproglangcourse/misc-scala/src/default/src/main/scala/misc/Comparing.scala>`_
+  <https://github.com/LoyolaChicagoCode/misc-scala/tree/master/src/main/scala/misc/Comparing.scala>`_
 
 References
 ^^^^^^^^^^
@@ -356,7 +356,7 @@ Examples
 ^^^^^^^^
 
 - `misc/Outer.java
-  <https://bitbucket.org/loyolachicagocs_comp313/misc-java/src/default/src/main/java/misc/Outer.java>`_ 
+  <https://github.com/LoyolaChicagoCode/misc-java/tree/master/src/main/java/misc/Outer.java>`_ 
 
 References
 ^^^^^^^^^^
