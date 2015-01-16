@@ -108,9 +108,8 @@ Preparation
   to enable it.
 
 - Fork the desired project from 
-  `this collection <https://bitbucket.org/lucoodevcourse>`_, 
-  then clone it using Mercurial (hg);
-  or download the corresponding zip file (discouraged).
+  `this collection <https://github.com/LoyolaChicagoCode?query=android-scala>`_, 
+  then clone it to your local workstation using `Git <http://git-scm.com>`_.
 
 Developing on the Command Line
 ------------------------------
@@ -250,14 +249,14 @@ out-of-container functional tests.
 Starting from scratch
 ^^^^^^^^^^^^^^^^^^^^^
 
-I have not been able to get pfn's gen-android task to work even though
-I tried with a global installation of the plugin.
+We have not been able to get pfn's gen-android task to work even though
+we tried with a global installation of the plugin.
 
 In addition to the usual `sbt directory structure
 <http://www.scala-sbt.org/0.13/tutorial/Directories.html>`_, the key
 ingredients are
 
-- ``build.sbt`` like in `our examples <https://bitbucket.org/lucoodevcourse>`_
+- ``build.sbt`` like in `our examples <https://github.com/LoyolaChicagoCode?query=android-scala>`_
 
   - set project name and version as desired
   - review the library dependencies, e.g., choose between Mockito and
@@ -406,6 +405,7 @@ For all users
   - Code Outline 2
   - Key Promoter (helps you learn keyboard shortcuts)
   - Markdown
+  - Scala import organizer
 
 - These are useful additional sbt plugins. `You can install them per
   project or
