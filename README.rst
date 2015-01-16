@@ -10,4 +10,13 @@ In this course, we study intermediate object-oriented development
 topics from various angles, including design principles and patterns,
 software architecture, and concurrency.
 
+Contents
+--------
+
+- `Overview of a Lightweight Development Process <source/devprocess.rst>`_
+- `Basics of object-oriented programming <source/basicoop.rst>`_
+- `Android App Development Using Scala <source/scalaandroiddev.rst>`_
+
 .. warning:: These notes are still being written, so expect a few rough edges. But we're getting closer!
+
+	 
