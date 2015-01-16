@@ -9,13 +9,15 @@ Prerequisites
 Required Development Tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Java Development Kit (JDK) 6 or 7 through your package management 
+* Java Development Kit (JDK) 6 or higher through your package management 
   system or from
   `Oracle <http://www.oracle.com/technetwork/java/javase/downloads>`_; 
   to verify, visit `this site
   <http://www.java.com/en/download/installed.jsp>`_ 
   and, if necessary, download Java from the same place. 
   (On a Mac, be sure to do this in Safari.)
+
+  .. warning:: Check specific prerequisite details for your platform; in particular, on the Mac, a Java 6 JDK is required to run IDEA, though you can (and should) use a Java 8 JDK as development target.
 
   .. warning:: On Windows, it is usually best to install the JDK in a location that does not contain spaces.
 
@@ -26,7 +28,7 @@ Required Development Tools
   - *this is included in each of the code examples, so no explicit installation is required*
   -  detailed *usage instructions* are `half way down past the change log <https://github.com/pfn/android-sdk-plugin>`_
 
-* `Mercurial (hg) <http://mercurial.selenic.com>`_ distributed version control system (DVCS)
+* `Git <http://git-scm.com/>`_ distributed version control system (DVCS)
 
 Recommended Tools
 ^^^^^^^^^^^^^^^^^
