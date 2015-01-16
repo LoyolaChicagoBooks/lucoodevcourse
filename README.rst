@@ -1,10 +1,12 @@
-Welcome to COMP 313/413 at Loyola University Chicago
-====================================================
+Welcome to COMP 313/413: Intermediate Object-Oriented Programming
+=================================================================
 
-Lecture notes for the mostly Scala and Android-based course COMP
-313/413: Intermediate Object-Oriented Programming at Loyola University
-Chicago's Computer Science Department. This version of the course is
-normally taught by Konstantin Läufer.
+Lecture notes for the mostly Scala and Android-based course `COMP
+313/413: Intermediate Object-Oriented Programming
+<http://courses.cs.luc.edu/html/comp313.html>`_ at `Loyola University
+Chicago's <http://luc.edu>`_ `Computer Science Department
+<http://luc.edu/cs>`_. This version of the course is normally taught
+by `Konstantin Läufer <https://github.com/klaeufer>`_.
 
 In this course, we study intermediate object-oriented development
 topics from various angles, including design principles and patterns,
