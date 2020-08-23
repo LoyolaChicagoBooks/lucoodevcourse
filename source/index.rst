@@ -16,18 +16,21 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
 
    intro
    basicoop
    devprocess
-   scalaandroiddev
    summary
+
+   syllabus
+   todo
 
 
 Indices and tables
 ----------------------
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
+.. todo:: add sample projects, activities, tests, and (tiered) master list for presentations
