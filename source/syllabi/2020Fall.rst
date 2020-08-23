@@ -40,8 +40,8 @@ Sections: COMP 313-002/004 and COMP 413-003/004 Fall 2020
   - 5% participation (in-class and online, including announcements of and reports from relevant professional events, GitHub issues and PRs for course examples, etc.)
 
 - `Ground rules <http://laufer.cs.luc.edu/teaching/ground-rules>`_
-- `Sakai site for this section (gradebook) <https://sakai.luc.edu/portal/site/COMP_371_001_5517_1206>`_
-- `MS Team <https://teams.microsoft.com/l/team/19%3aaec55a5b5500469185bc3b2d87072760%40thread.tacv2/conversations?groupId=c4cd990e-f10c-4279-8e11-cd8f44b1a408&tenantId=021f4fe3-2b9c-4824-8378-bbcf9ec5accb>`_ *(mandatory subscription and participation)*
+- `Sakai site for this section (gradebook) <https://sakai.luc.edu/portal/site/COMP_313_002_4743_1206>`_
+- `MS Team <https://teams.microsoft.com/l/team/19%3ad7448a13bdb140679d703a744f49da90%40thread.tacv2/conversations?groupId=fa4f7862-db3c-4e7e-b063-90522d6d2261&tenantId=021f4fe3-2b9c-4824-8378-bbcf9ec5accb>`_ *(mandatory subscription and participation)*
 
 - Important dates (tentative) for take-home quizzes and tests: 
 
