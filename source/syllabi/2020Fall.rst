@@ -13,7 +13,7 @@ Sections: COMP 313-002/004 and COMP 413-003/004 Fall 2020
 
 - *Communication:* All communication regarding this class takes place in Zoom (verbal) and MS Teams (written). Most will be in the team-level channel specific to this term. For individual or group-level concerns, you may use direct individual or group messages in MS Teams; my user ID is **klaufer@luc.edu**. *(Please DO NOT use email!)*
 - *Instructor:* `Konstantin Läufer <http://laufer.cs.luc.edu>`_
-- *Office hour:* Wed 13:30-14:45 and Fri 10:30-11:45 on Zoom (appointment recommended)
+- *Office hour:* Wed 13:30-14:45 and Fri 10:30-11:45 on Zoom (appointment recommended), other times available on request
 - *TA:* Sean Higgins
 - *Office hour:* TBD
 - *Texts:*
