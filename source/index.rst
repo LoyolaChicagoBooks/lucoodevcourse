@@ -23,6 +23,7 @@ Table of Contents
    devprocess
    summary
 
+   software
    syllabus
    todo
 
