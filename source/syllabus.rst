@@ -13,13 +13,6 @@ Course: COMP 313/413: Intermediate Object-Oriented Development
 
 .. include:: syllabi/2020Fall.rst
 
-  
-Detailed Course Outline
-~~~~~~~~~~~~~~~~~~~~~~~
-  
-.. include:: detailedoutline.txt
-
-.. todo:: add outline
 
 Key Resources
 ~~~~~~~~~~~~~

@@ -19,10 +19,12 @@ Table of Contents
    :numbered:
 
    intro
+   outline
    basicoop
    devprocess
    summary
 
+   resources
    software
    syllabus
    todo
