@@ -56,6 +56,10 @@ If you make this choice, you will be largely on your own if you run into problem
 *Please discuss with your instructor if interested in pursuing this path.*
 
 
+.. todo:: discuss command-line-based Android/Java development environment
+
+
+
 Overview of Android Development Modes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
