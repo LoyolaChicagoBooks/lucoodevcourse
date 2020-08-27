@@ -33,7 +33,7 @@ Overall Outline of Topics (subject to revision)
 - software design patterns (2 weeks)
 
   - key patterns from HFDP
-  - key idioms from EJ3E
+  - key idioms from EJ3e
 - concurrent programming (3 weeks)
 
   - events
@@ -47,7 +47,7 @@ Overall Outline of Topics (subject to revision)
 Typical structure of a weekly session
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- OOPUJ or APPP topics
+- EJ3e or HFDP topics
 - project discussion and related topics
 - pair/group presentation or other activity
 
