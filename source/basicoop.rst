@@ -351,6 +351,7 @@ Packages/namespaces
   package-level member access).
 - In Java, implemented as mapping from fully qualified class names to file
   system. In Scala, this is much looser.
+- In addition, in Java, each *public* class must be in a separate file whose name matches the class name.
 
 Examples
 ^^^^^^^^
