@@ -50,9 +50,10 @@ Examples
 References
 ^^^^^^^^^^
 
+- `Effective Java chapter 3 items 10-11 <https://learning.oreilly.com/library/view/effective-java/9780134686097/ch3.xhtml>`_
 - `Java
   <http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html#equals(java.lang.Object)>`_
-  (see also *Effective Java* items 8, 9; see also `here
+  (see also `here
   <http://www.artima.com/lejava/articles/equality.html>`_)
 - `C# <http://msdn.microsoft.com/en-us/library/dd183752.aspx>`_ (see also *Effective C#* items 6, 26)
 
@@ -81,8 +82,9 @@ Examples
 References
 ^^^^^^^^^^
 
+- `Effective Java chapter 5 <https://learning.oreilly.com/library/view/effective-java/9780134686097/ch5.xhtml>`_
 - `Java <http://docs.oracle.com/javase/tutorial/java/generics>`_
-  (*Effective Java* chapter 5: items 23-29; see also `this tutorial
+  (see also `this tutorial
   <http://docs.oracle.com/javase/tutorial/extra/generics/index.html>`_
   and `here
   <http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html>`_
@@ -169,9 +171,9 @@ Examples
 References
 ^^^^^^^^^^
 
+- `Effective Java chapter 4 items 19-23 <https://learning.oreilly.com/library/view/effective-java/9780134686097/ch4.xhtml>`_
 - `Java
   <http://docs.oracle.com/javase/tutorial/java/IandI/abstract.html>`_
-  (see also *Effective Java* items 18, 19)
 - `C# <http://msdn.microsoft.com/en-us/library/ms173150.aspx>`_ (see
   also *Effective C#* items 22, 23)
 - `Scala <http://docs.scala-lang.org/tutorials/tour/abstract-types.html>`_
@@ -211,9 +213,10 @@ Examples
 References
 ^^^^^^^^^^
 
+- `Effective Java chapter 4 item 19 <https://learning.oreilly.com/library/view/effective-java/9780134686097/ch4.xhtml>`_
 - `Java
   <http://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html>`_
-  (see also *Effective Java* item 17; see also `these pitfalls
+  (see also `these pitfalls
   <http://www.techrepublic.com/article/avoid-these-java-inheritance-gotchas/5031837>`_)
 - `C# <http://msdn.microsoft.com/en-us/library/ms173149.aspx>`_ (see
   also *Effective C#* item 22)
@@ -256,9 +259,9 @@ Examples
 References
 ^^^^^^^^^^
 
+- `Effective Java chapter 8 item 52 <https://learning.oreilly.com/library/view/effective-java/9780134686097/ch8.xhtml>`_
 - `Java
   <http://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html>`_
-  (see also *Effective Java* item 52)
 - `C# <http://msdn.microsoft.com/en-us/library/ms173152.aspx>`_ (see
   also *Effective C#* item 3)
 
@@ -289,9 +292,10 @@ Examples
 References
 ^^^^^^^^^^
 
+- `Effective Java chapter 3 <https://learning.oreilly.com/library/view/effective-java/9780134686097/ch3.xhtml>`_
 - `Java
   <http://docs.oracle.com/javase/tutorial/java/IandI/objectclass.html>`_
-  (see also *Effective Java* items 8 through 12; see also `here
+  (see also `here
   <http://www.artima.com/lejava/articles/equality.html>`_ for equals,
   below for clone; detailed Javadoc is `here
   <http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`_)
@@ -334,9 +338,10 @@ original from the clone anyway.*
 References
 ^^^^^^^^^^
 
+- `Effective Java chapter 3 item 13 <https://learning.oreilly.com/library/view/effective-java/9780134686097/ch3.xhtml>`_
 - `Java
   <http://docs.oracle.com/javase/tutorial/java/IandI/objectclass.html>`_
-  (see also *Effective Java* item 11; see also `here
+  (see also `here
   <http://www.artima.com/objectsandjava/webuscript/ClonCollInner1.html>`_
   for more detail)
 - `C#
@@ -381,8 +386,9 @@ Related to the information hiding and open-closed principles.
 References
 ^^^^^^^^^^
 
+- `Effective Java chapter 4 items 19-23 <https://learning.oreilly.com/library/view/effective-java/9780134686097/ch4.xhtml>`_
 - `Java
   <http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html>`_
-  (see also *Effective Java* items 13, 14, 15; see also `here <http://www.artima.com/objectsandjava/webuscript/PackagesAccess1.html>`_)
+  (see also `here <http://www.artima.com/objectsandjava/webuscript/PackagesAccess1.html>`_)
 - `C# <http://msdn.microsoft.com/en-us/library/ms173121.aspx>`_ (see
   also *Effective C# item 1)
