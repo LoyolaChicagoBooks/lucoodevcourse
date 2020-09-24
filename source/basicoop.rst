@@ -274,7 +274,7 @@ specific ones are for Java):
 - ``hashCode`` (ditto)
 - ``compareTo`` (if instances are ordered)
 - ``clone`` (if instances are mutable)
-- ``finalize`` (if instances need to release resources)
+- ``close`` (if instances are `closeable resources <https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html>`_)
 
 Also related to the Liskov substitution principle.
 
