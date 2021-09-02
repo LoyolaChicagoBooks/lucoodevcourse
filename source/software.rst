@@ -1,3 +1,5 @@
+.. _appendix-software:
+
 Appendix: Course Software
 -------------------------
 

@@ -11,6 +11,7 @@ Course: COMP 313/413: Intermediate Object-Oriented Development
 - Official course description: `Comp 313 <https://academics.cs.luc.edu/courses/comp313.html>`_ | `Comp 413 <https://academics.cs.luc.edu/courses/comp413.html>`_
 
 
+.. include:: syllabi/2021Fall.rst
 .. include:: syllabi/2020Fall.rst
 
 
