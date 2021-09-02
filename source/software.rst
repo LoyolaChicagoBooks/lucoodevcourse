@@ -19,7 +19,12 @@ Required Software
     - Download the Git dmg file, right-click/CTRL-click on it, and click Open twice, then double click on the pkg file and follow the installation prompts
     - Also install xcode: open an OS X Terminal window, enter xcode-select --install, and follow any prompts
     - If you have Android Studio open, close and reopen it; it should now find Git OK - if not, Git lives in /usr/bin/git
-- `Android Studio <https://developer.android.com/studio>`_ (follow the detailed instructions to install Android Studio and various SDKs)
+
+- An Android-capable IDE
+
+  - `Android Studio <https://developer.android.com/studio>`_ (follow the detailed instructions to install Android Studio and various SDKs)
+  - `IntelliJ IDEA Community Edition <https://www.jetbrains.com/idea/>`_ with the Android plugin installed
+  - `Visual Studio Code <https://code.visualstudio.com>`_ with a `suitable Android extension <https://www.linkedin.com/pulse/building-android-apps-using-microsofts-vs-code-instead-saamer-mansoor/>`_
 
 
 Optional But Useful Software
@@ -30,11 +35,17 @@ Optional But Useful Software
   - http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html (PuTTY/SSH for Windows)
   - Secure Shell is already installed in Mac OS X and Linux
 
-- SourceTree (Git client for Windows and Mac - sometimes Android Studio is not cooperative in cloning or updating version-controlled repositories)
+- Git GUI client for Windows or Mac (sometimes Android Studio is not cooperative in cloning or updating version-controlled repositories)
 
-**Also, create a GitHub account here:** https://github.com**, using your Loyola email if you have not done that before - GitHub is a "repository manager" that you will use to create Android Studio solutions to projects throughout the course (using your Loyola email allows you to create private repositories and share them with an unlimited number of other students and me and our TA).**
+  - `GitHub Desktop <https://desktop.github.com>`_
+  - `SourceTree <https://www.sourcetreeapp.com>`_
 
-You can run Android tests and apps in an emulator on your PC or deploy them to your Android phone or tablet (with the required developer settings). With Robolectric (introduced later in the course), you can run Android tests in an ordinary JVM without the presence of an emulator or device.
+
+**Also, create a GitHub account here:** https://github.com, using your Loyola email if you have not done that before.
+GitHub is a hosted repository provider, which you will use to create Android Studio solutions to projects throughout the course (using your Loyola email allows you to create private repositories and share them with an unlimited number of other students and me and our TA).
+
+You can run Android tests and apps in an emulator on your workstation or deploy them to your Android phone or tablet (with the required developer settings).
+With Robolectric (introduced later in the course), you can run Android tests in an ordinary JVM without the presence of an emulator or device.
 
 
 Recommended Software
@@ -45,7 +56,6 @@ These are useful Android Studio/Intellij IDEA plugins:
 - .ignore
 - Code Outline
 - Key Promoter (helps you learn keyboard shortcuts)
-- MultiMarkdown
 
 
 Alternative Stack
