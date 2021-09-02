@@ -117,3 +117,10 @@ Sections: 002 Fall 2021
 - *Recording of class meetings:* In this class, software will be used to record live class discussions. As a student in this class, your participation in live class discussions will be recorded. These recordings will be made available only to students enrolled in the class, to assist those who cannot attend the live session or to serve as a resource for those who would like to review content that was presented. All recordings will become unavailable to students in the class when the course has concluded. The use of all video recordings will be in keeping with the University Privacy Statement shown below.
 
 - *Privacy Statement:* Assuring privacy among faculty and students engaged in online and face-to-face instructional activities helps promote open and robust conversations and mitigates concerns that comments made within the context of the class will be shared beyond the classroom. As such, recordings of instructional activities occurring in online or face-to-face classes may be used solely for internal class purposes by the faculty member and students registered for the course, and only during the period in which the course is offered. Students will be informed of such recordings by a statement in the syllabus for the course in which they will be recorded. Instructors who wish to make subsequent use of recordings that include student activity may do so only with informed written consent of the students involved or if all student activity is removed from the recording. Recordings including student activity that have been initiated by the instructor may be retained by the instructor only for individual use.
+
+- *Bloom’s Taxonomy:* To be used in study guides for quizzes and tests. The letters refer to the levels of learning from the cognitive domain of Bloom's taxonomy:
+
+  - K: know the term
+  - C: comprehend the concept
+  - A: apply the technique
+ 
