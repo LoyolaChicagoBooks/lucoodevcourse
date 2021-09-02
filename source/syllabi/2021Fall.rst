@@ -58,8 +58,6 @@ Sections: 002 Fall 2021
   - `These lecture notes <https://lucoodevcourse.github.io>`_
   - `Prerecorded lecture videos in Panopto <https://luc.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?embedded=1#folderID=%22e5f49a11-43d5-4fe7-9ae2-ad9701598d17%22>`_
 
-- *Additional resources:* :ref:`appendix-resources`
-
 - *Grading:*
 
   Additive point system:
