@@ -20,8 +20,8 @@ Table of Contents
 
    intro
    outline
-   basicoop
    devprocess
+   basicoop
    summary
 
    resources
