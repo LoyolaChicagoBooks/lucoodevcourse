@@ -4,7 +4,7 @@ Sections: 002 Fall 2021
 - *General format:*
 
   - This is a *on-campus*, face-to-face class involving lectures, group activities, etc.
-  - I will make an effort to record all lectures for later viewing through Sakai/Panopto. In addition, some prerecorded videos are available through Panopto.
+  - In addition, various prerecorded videos are available through Panopto.
   - To earn points for group activities or other in-class activities, you are required to participate in class or make up for the work outside of class.
   - *Estimated workload: 7 to 9 hours per week including class time.*
 
@@ -46,10 +46,10 @@ Sections: 002 Fall 2021
   | `access free on Safari <https://learning.oreilly.com/library/view/effective-java-3rd/9780134686097>`_
 
   | **Head First Design Patterns (required)**
-  | *by Kathy Sierra, Bert Bates, Elisabeth Robson, Eric Freeman*
+  | *by Eric Freeman and Elisabeth Robson*
   | Publisher: O'Reilly Media, Inc.
-  | Release Date: October 2004
-  | ISBN: 9780596007126
+  | Release Date: October 2020
+  | ISBN: 9781492077992
   | `access free on Safari <https://learning.oreilly.com/library/view/head-first-design/9781492077992>`_
 
 - *Additional materials:*
@@ -57,8 +57,6 @@ Sections: 002 Fall 2021
   - :ref:`appendix-software`
   - `These lecture notes <https://lucoodevcourse.github.io>`_
   - `Prerecorded lecture videos in Panopto <https://luc.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?embedded=1#folderID=%22e5f49a11-43d5-4fe7-9ae2-ad9701598d17%22>`_
-
-- *Additional resources:* :ref:`appendix-resources`
 
 - *Grading:*
 
@@ -112,8 +110,15 @@ Sections: 002 Fall 2021
   - Week 6 - Thu 5 October: test 1
   - Week 9 - Tue 28 October: quiz 2
   - Week 12 - Thu 18 November: test 2
-  - Week 16 (finals week) - Tue 14 December: quiz 3
+  - Week 16 (finals week) - Thu 14 December: test 3
 
 - *Recording of class meetings:* In this class, software will be used to record live class discussions. As a student in this class, your participation in live class discussions will be recorded. These recordings will be made available only to students enrolled in the class, to assist those who cannot attend the live session or to serve as a resource for those who would like to review content that was presented. All recordings will become unavailable to students in the class when the course has concluded. The use of all video recordings will be in keeping with the University Privacy Statement shown below.
 
 - *Privacy Statement:* Assuring privacy among faculty and students engaged in online and face-to-face instructional activities helps promote open and robust conversations and mitigates concerns that comments made within the context of the class will be shared beyond the classroom. As such, recordings of instructional activities occurring in online or face-to-face classes may be used solely for internal class purposes by the faculty member and students registered for the course, and only during the period in which the course is offered. Students will be informed of such recordings by a statement in the syllabus for the course in which they will be recorded. Instructors who wish to make subsequent use of recordings that include student activity may do so only with informed written consent of the students involved or if all student activity is removed from the recording. Recordings including student activity that have been initiated by the instructor may be retained by the instructor only for individual use.
+
+- *Bloom’s Taxonomy:* To be used in study guides for quizzes and tests. The letters refer to the levels of learning from the cognitive domain of Bloom's taxonomy:
+
+  - K: know the term
+  - C: comprehend the concept
+  - A: apply the technique
+ 
