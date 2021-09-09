@@ -107,10 +107,10 @@ Sections: 002 Fall 2021
 
   - Week 2 - Thu 9 September: quiz 0
   - Week 4 - Thu 23 September: quiz 1
-  - Week 6 - Thu 5 October: test 1
+  - Week 6 - Thu 7 October: test 1
   - Week 9 - Tue 28 October: quiz 2
   - Week 12 - Thu 18 November: test 2
-  - Week 16 (finals week) - Thu 14 December: test 3
+  - Week 16 (finals week) - Thu 16 December: test 3
 
 - *Recording of class meetings:* In this class, software will be used to record live class discussions. As a student in this class, your participation in live class discussions will be recorded. These recordings will be made available only to students enrolled in the class, to assist those who cannot attend the live session or to serve as a resource for those who would like to review content that was presented. All recordings will become unavailable to students in the class when the course has concluded. The use of all video recordings will be in keeping with the University Privacy Statement shown below.
 
@@ -121,4 +121,3 @@ Sections: 002 Fall 2021
   - K: know the term
   - C: comprehend the concept
   - A: apply the technique
- 
