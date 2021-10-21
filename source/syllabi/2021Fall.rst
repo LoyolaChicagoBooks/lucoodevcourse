@@ -109,7 +109,7 @@ Sections: 002 Fall 2021
   - Week 4 - Thu 23 September: quiz 1
   - Week 6 - Thu 7 October: test 1
   - Week 9 - Tue 28 October: quiz 2
-  - Week 10 - Fri 5 November: *last day to withdraw with W instead of WF*
+  - Week 11 - Fri 12 November: *last day to withdraw with W instead of WF*
   - Week 12 - Thu 18 November: test 2
   - Week 16 (finals week) - Thu 16 December: test 3
 
